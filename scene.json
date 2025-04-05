@@ -1,0 +1,106 @@
+{
+    "name": "level 1",
+    "light": [
+        {
+            "position": [
+                0,
+                50,
+                50
+            ],
+            "color": [
+                0.78,
+                0.52,
+                0.52
+            ]
+        }
+    ],
+    "sfx": {
+        "footstep_left": "footstep-left.ogg",
+        "footstep_right": "footstep-right.ogg"
+    },
+    "model": [
+        {
+            "name": "platform",
+            "gltf": "start_platform1.0.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "entity": [
+                {
+                    "position": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "medium",
+            "gltf": "char_medium1.3.glb",
+            "terrain_clamp": true,
+            "can_jump": true,
+            "physics": {
+                "mass": 2,
+                "geom": "capsule",
+                "type": "body",
+                "yoffset": 0,
+                "radius": 0,
+                "length": 0
+            },
+            "motion_segments": 4,
+            "animations": {
+                "motion_start": "IDLE_STILL_TO_RUN_R",
+                "motion_stop": "RUN_R_TO_IDLE_STILL",
+                "motion": "RUN_R",
+                "motion_to_jump": "RUN_R_TO_JUMP",
+                "jump": "JUMP_R",
+                "jump_to_motion": "JUMP_R_TO_RUN_R",
+                "jump_to_idle": "JUMP_R_TO_IDLE_STILL",
+                "fall_to_idle": "FALL_TO_IDLE_STILL",
+                "idle_to_jump": "IDLE_STILL_TO_JUMP_R",
+                "idle": "IDLE_STILL",
+                "fall": "FALL",
+                "start": "KNEEL_START",
+                "start_to_idle": "KNEEL_TO_IDLE_STILL"
+            },
+            "speed": 5,
+            "can_dash": true,
+            "character": [
+                {
+                    "position": [
+                        0,
+                        10,
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "lava with emission",
+            "gltf": "lava1.0.1.gltf",
+            "physics": {
+                "geom": "trimesh",
+                "type": "geom",
+                "yoffset": -0.2
+            },
+            "terrain_clamp": true,
+            "entity": [
+                {
+                    "position": [
+                        0.0,
+                        0.0,
+                        -3.0,
+                        1
+                    ]
+                }
+            ]
+        }
+    ]
+}
