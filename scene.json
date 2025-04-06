@@ -3,14 +3,38 @@
     "light": [
         {
             "position": [
-                0,
                 50,
+                100,
                 50
             ],
             "color": [
-                0.78,
-                0.52,
-                0.52
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "position": [
+                -50,
+                -100,
+                -50
+            ],
+            "color": [
+                0.7,
+                0.7,
+                0.7
+            ]
+        },
+        {
+            "position": [
+                50,
+                0,
+                -50
+            ],
+            "color": [
+                0.7,
+                0.7,
+                0.7
             ]
         }
     ],
@@ -37,27 +61,139 @@
                         1
                     ]
                 }
+               
             ]
         },
         {
             "name": "level1",
-            "gltf": "level1_1.0.glb",
+            "gltf": "lvl1_playspace1.0.glb",
             "terrain_clamp": false,
             "physics": {
                 "mass": 2,
                 "geom": "trimesh",
                 "type": "geom"
             },
-            "fix_origin": true,
+            "fix_origin": false,
             "entity": [
                 {
                     "position": [
-                        0,
-                        -30,
-                        50,
+                        7.98,
+                        -56.89,
+                        58.25,
                         1
                     ]
                 }
+            ]
+        },
+        {
+            "name": "temp platforms switch1",
+            "gltf": "lvl1_T_switch1_platform.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        -9.3912,
+                        -48.986,
+                        25.244,
+                        1
+                    ],
+                    "name": "lvl1.T.switch1.platform1"
+                },
+                {
+                    "position": [
+                        -13.297,
+                        -47.807,
+                        25.293,
+                        1
+                    ],
+                    "name": "lvl1.T.switch1.platform2"
+                },
+                {
+                    "position": [
+                        -17.0587,
+                        -46.5631,
+                        25.3667,
+                        1
+                    ],
+                    "name": "lvl1.T.switch1.platform3"
+                },
+                {
+                    "position": [
+                        -21.1515,
+                        -45.425,
+                        25.3916,
+                        1
+                    ],
+                    "name": "lvl1.T.switch1.platform4"
+                }
+            ]
+        },
+        {
+            "name": "temp platforms switch2",
+            "gltf": "lvl1_T_switch2_platform.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        7.30775,
+                        -47.8069,
+                        35.9622,
+                        1
+                    ],
+                    "name": "lvl1.T.switch2.platform1"
+                },
+                {
+                    "position": [
+                        10.8416,
+                        -46.5631,
+                        34.5195,
+                        1
+                    ],
+                    "name": "lvl1.T.switch2.platform2"
+                },
+                {
+                    "position": [
+                        14.1737,
+                        -45.3387,
+                        32.6988,
+                        1
+                    ],
+                    "name": "lvl1.T.switch2.platform3"
+                }
+            ]
+        },
+        {
+            "name": "temp platforms switch1",
+            "gltf": "lvl1_P_switch1_platform.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        -0,
+                        -50.187,
+                        42.42,
+                        1
+                    ],
+                    "name" : "lvl1.T.switch1.platform1"
+                }  
             ]
         },
         {
