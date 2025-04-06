@@ -40,6 +40,27 @@
             ]
         },
         {
+            "name": "level1",
+            "gltf": "level1_1.0.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": true,
+            "entity": [
+                {
+                    "position": [
+                        0,
+                        -30,
+                        50,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
             "name": "medium",
             "gltf": "char_medium1.3.glb",
             "terrain_clamp": true,
@@ -74,8 +95,17 @@
                 {
                     "position": [
                         0,
-                        10,
+                        4,
                         0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "position": [
+                        0,
+                        -25,
+                        60,
                         1,
                         0
                     ]
@@ -90,13 +120,12 @@
                 "type": "geom",
                 "yoffset": -0.2
             },
-            "terrain_clamp": true,
             "entity": [
                 {
                     "position": [
                         0.0,
-                        0.0,
-                        -3.0,
+                        -1.3,
+                        3.0,
                         1
                     ]
                 }
