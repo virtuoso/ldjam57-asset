@@ -266,6 +266,138 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "level1 light switch1",
+            "gltf": "lvl1_L_switch1.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        44.4597,
+                        -60.6902,
+                        63.6677,                        
+                        1
+                    ],
+                    "name": "lvl1.L.switch1"
+                }
+            ]
+        },
+        {
+            "name": "level1 P switch1",
+            "gltf": "lvl1_P_switch1.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        -12.4732,
+                        -49.5141,
+                        43.0737,                        
+                        1
+                    ],
+                    "name": "lvl1.P.switch1"
+                }
+            ]
+        },
+        {
+            "name": "level1 P switch2",
+            "gltf": "lvl1_P_switch2.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        -18.1922,
+                        -43.4749,
+                        30.9575,                     
+                        1
+                    ],
+                    "name": "lvl1.P.switch2"
+                }
+            ]
+        },
+        {
+            "name": "level1 P switch3",
+            "gltf": "lvl1_P_switch3.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        19.0632,
+                        -49.5141,
+                        58.8234,                     
+                        1
+                    ],
+                    "name": "lvl1.P.switch3"
+                }
+            ]
+        },
+        {
+            "name": "level1 T switch1",
+            "gltf": "lvl1_T_switch1.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        -4.96353,
+                        -49.523,
+                        25.1369,                     
+                        1
+                    ],
+                    "name": "lvl1.T.switch1"
+                }
+            ]
+        },
+        {
+            "name": "level1 T switch2",
+            "gltf": "lvl1_T_switch2.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        -16.3861,
+                        -43.8339,
+                        56.2643,                     
+                        1
+                    ],
+                    "name": "lvl1.T.switch2"
+                }
+            ]
         }
     ]
 }
