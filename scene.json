@@ -8,9 +8,21 @@
                 50
             ],
             "color": [
-                0.78,
-                0.52,
-                0.52
+                0.81,
+                0.81,
+                0.81
+            ]
+        },
+        {
+            "position": [
+                -50,
+                -100,
+                -50
+            ],
+            "color": [
+                0.2,
+                0.2,
+                0.2
             ]
         }
     ],
@@ -42,7 +54,7 @@
         },
         {
             "name": "level1 playspace",
-            "gltf": "lvl1_playspace2.0.glb",
+            "gltf": "lvl1_playspace1.1.glb",
             "terrain_clamp": false,
             "physics": {
                 "mass": 2,
@@ -53,9 +65,9 @@
             "entity": [
                 {
                     "position": [
-                        0.40446,
-                        -50.123,
-                        43.701,
+                        2.5084,
+                        -49.732,
+                        44.78,
                         1
                     ]
                 }
@@ -74,9 +86,9 @@
             "entity": [
                 {
                     "position": [
-                        18.227,
-                        -71.617,
-                        93.103,
+                        0,
+                        -61.318,
+                        96.063,
                         1
                     ]
                 }
@@ -95,8 +107,8 @@
             "entity": [
                 {
                     "position": [
-                        0.51804,
-                        -48,
+                        0.50514,
+                        -47.943,
                         45.917,
                         1
                     ]
@@ -116,9 +128,9 @@
             "entity": [
                 {
                     "position": [
-                        18.757,
-                        -40.768,
-                        32.576,
+                        20.028,
+                        -40.207,
+                        24.094,
                         1
                     ]
                 }
@@ -138,7 +150,7 @@
                 {
                     "position": [
                         -18.136,
-                        -43.574,
+                        -43.436,
                         31.109,
                         1
                     ]
@@ -211,7 +223,7 @@
         },
         {
             "name": "level1 T switch1 platforms",
-            "gltf": "lvl1_T_switch1_platform.glb",
+            "gltf": "lvl1_T_switch1_stairs.glb",
             "terrain_clamp": false,
             "physics": {
                 "mass": 2,
@@ -222,39 +234,12 @@
             "entity": [
                 {
                     "position": [
-                        -9.3912,
-                        -48.986,
-                        25.244,
+                       -18.187,
+                       -46.347,
+                       23.021,
                         1
                     ],
                     "name": "lvl1.T.switch1.platform1"
-                },
-                {
-                    "position": [
-                        -13.297,
-                        -47.807,
-                        25.293,
-                        1
-                    ],
-                    "name": "lvl1.T.switch1.platform2"
-                },
-                {
-                    "position": [
-                        -17.0587,
-                        -46.5631,
-                        25.3667,
-                        1
-                    ],
-                    "name": "lvl1.T.switch1.platform3"
-                },
-                {
-                    "position": [
-                        -21.1515,
-                        -45.425,
-                        25.3916,
-                        1
-                    ],
-                    "name": "lvl1.T.switch1.platform4"
                 }
             ]
         },
@@ -276,13 +261,14 @@
                         -43.834,
                         56.264,
                         1
-                    ]
+                    ],
+                    "name": "lvl1.T.switch2"
                 }
             ]
         },
         {
             "name": "level1 T switch2 platforms",
-            "gltf": "lvl1_T_switch2_platform.glb",
+            "gltf": "lvl1_T_switch2_stairs.glb",
             "terrain_clamp": false,
             "physics": {
                 "mass": 2,
@@ -293,30 +279,12 @@
             "entity": [
                 {
                     "position": [
-                        7.30775,
-                        -47.8069,
-                        35.9622,
+                        11.733,
+                        -46.522,
+                        33.886,
                         1
                     ],
                     "name": "lvl1.T.switch2.platform1"
-                },
-                {
-                    "position": [
-                        10.8416,
-                        -46.5631,
-                        34.5195,
-                        1
-                    ],
-                    "name": "lvl1.T.switch2.platform2"
-                },
-                {
-                    "position": [
-                        14.1737,
-                        -45.3387,
-                        32.6988,
-                        1
-                    ],
-                    "name": "lvl1.T.switch2.platform3"
                 }
             ]
         },
@@ -355,9 +323,9 @@
             "entity": [
                 {
                     "position": [
-                        -0,
-                        -50.187,
-                        41.891,
+                        -0.002,
+                        -48.798,
+                        42.498,
                         1
                     ],
                     "name" : "lvl1.P.switch1.platform1"
@@ -388,7 +356,7 @@
         },
         {
             "name": "level1 P switch2 platforms",
-            "gltf": "lvl1_P_switch2_platform.glb",
+            "gltf": "lvl1_P_switch2_platform1.1.glb",
             "terrain_clamp": false,
             "physics": {
                 "mass": 2,
@@ -399,31 +367,13 @@
             "entity": [
                 {
                     "position": [
-                        0.25502,
-                        -50.612,
-                        74.381,
+                        0.18723,
+                        -53.524,
+                        80.093,
                         1
                     ],
                     "name" : "lvl1.P.switch2.platform1"
-                },
-                {
-                    "position": [
-                        1.3929,
-                        -57.612,
-                        81.173,                     
-                        1
-                    ],
-                    "name": "lvl1.P.switch2.platform2"
-                },
-                {
-                    "position": [
-                        4.4041,
-                        -64.612,
-                        87.38,                     
-                        1
-                    ],
-                    "name": "lvl1.P.switch2.platform3"
-                }  
+                } 
             ]
         },
         
@@ -451,7 +401,7 @@
         },
         {
             "name": "level1 P switch3",
-            "gltf": "lvl1_P_switch3_platform.glb",
+            "gltf": "lvl1_P_switch3_platform1.1.glb",
             "terrain_clamp": false,
             "physics": {
                 "mass": 2,
@@ -472,31 +422,9 @@
             ]
         },
         {
-            "name": "level1 light switch1",
-            "gltf": "lvl1_L_switch1.glb",
-            "terrain_clamp": false,
-            "physics": {
-                "mass": 2,
-                "geom": "trimesh",
-                "type": "geom"
-            },
-            "fix_origin": false,
-            "entity": [
-                {
-                    "position": [
-                        44.46,
-                        -60.69,
-                        63.668,                        
-                        1
-                    ],
-                    "name": "lvl1.L.switch1"
-                }
-            ]
-        },
-        {
             "name": "starting body",
             "gltf": "char_medium1.31.glb",
-            "terrain_clamp": true,
+            "terrain_clamp": false,
             "can_jump": true,
             "physics": {
                 "mass": 2,
@@ -520,25 +448,26 @@
                 "idle": "IDLE_STILL",
                 "fall": "FALL",
                 "start": "FALL"
+                
             },
             "speed": 5,
-            "can_dash": true,
+            "can_dash": false,
             "character": [
                 {
                     "position": [
                         0,
-                        10,
+                        200,
                         0,
                         1,
                         0
                     ],
-                    "name": "lvl0.medium.body1"
+                    "name": "lvl1.maindude"
                 }
                 ]
         },
         {
             "name": "lvl 1 medium bodies for switching",
-            "gltf": "char_medium1.31.glb",
+            "gltf": "lvl1_walldude.glb",
             "terrain_clamp": true,
             "can_jump": true,
             "physics": {
@@ -566,7 +495,7 @@
                 "start_to_idle": "STAND_TO_IDLE_STILL"
             },
             "speed": 5,
-            "can_dash": true,
+            "can_dash": false,
             "character": [
                 {
                     "position": [
@@ -576,19 +505,201 @@
                         1,
                         180
                     ],
-                    "name": "lvl1.medium.body2"
-                },
-                {
+                    "name": "lvl1.walldude"
+                }
+            ]
+        },
+        {
+            "name": "lvl 1 medium bodies for switching",
+            "gltf": "lvl1_isledude.glb",
+            "terrain_clamp": true,
+            "can_jump": true,
+            "physics": {
+                "mass": 2,
+                "geom": "capsule",
+                "type": "body",
+                "yoffset": 0,
+                "radius": 0,
+                "length": 0
+            },
+            "motion_segments": 4,
+            "animations": {
+                "motion_start": "IDLE_STILL_TO_RUN_R",
+                "motion_stop": "RUN_R_TO_IDLE_STILL",
+                "motion": "RUN_R",
+                "motion_to_jump": "RUN_R_TO_JUMP",
+                "jump": "JUMP_R",
+                "jump_to_motion": "JUMP_R_TO_RUN_R",
+                "jump_to_idle": "JUMP_R_TO_IDLE_STILL",
+                "fall_to_idle": "FALL_TO_IDLE_STILL",
+                "idle_to_jump": "IDLE_STILL_TO_JUMP_R",
+                "idle": "IDLE_STILL",
+                "fall": "FALL",
+                "start": "STAND_START",
+                "start_to_idle": "STAND_TO_IDLE_STILL"
+            },
+            "speed": 5,
+            "can_dash": false,
+            "character": [
+                                {
                     "position": [
-                        18.803,
+                       18.803,
                         -40.43,
-                        32.549,
+                        24.801,
                         1,
                         -90
                     ],
-                    "name": "lvl1.medium.body3"
+                    "name": "lvl1.isledude"
+                }
+            ]
+        },
+        {
+            "name": "leaves tree1",
+            "gltf": "lvl1_leaves1.glb",
+            "terrain_clamp": false,
+                        "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        21.925,
+                        -39.575,
+                        40.269,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "trunk tree1",
+            "gltf": "lvl1_tree1.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        22.238,
+                        -38.712,
+                        40.446,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "total tree2",
+            "gltf": "lvl1_tree2_total.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        -22.783,
+                        -32.132,
+                        40.769,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "total tree2",
+            "gltf": "lvl1_tree3_total.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        6.5277,
+                        -35.899,
+                        65.953,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "leaves tree4",
+            "gltf": "lvl1_tree4_leaves.glb",
+            "terrain_clamp": false,
+                        "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        -14.568,
+                        -40.769,
+                        61.685,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "tree4 trunk",
+            "gltf": "lvl1_tree4_trunk.glb",
+            "terrain_clamp": false,
+            "physics": {
+                "mass": 2,
+                "geom": "trimesh",
+                "type": "geom"
+            },
+            "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        -14.54,
+                        -40.007,
+                        61.762,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "glowing spheres around end",
+            "gltf": "lvl1_glow_spheres_end.glb",
+            "terrain_clamp": false,
+                        "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        0.64505,
+                        -55.403,
+                        83.001,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "glowing spheres around start",
+            "gltf": "lvl1_glowing_spheres_start.glb",
+            "terrain_clamp": false,
+                        "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        0.06849,
+                        72.487,
+                        2.8027,
+                        1
+                    ]
                 }
             ]
         }
-    ]
+        ]
 }
