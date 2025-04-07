@@ -270,6 +270,7 @@
             "fix_origin": false,
             "entity": [
                 {
+                    "name": "lvl1.T.switch2",
                     "position": [
                         -16.386,
                         -43.834,
