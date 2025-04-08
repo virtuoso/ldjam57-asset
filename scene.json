@@ -157,27 +157,7 @@
                 }
             ]
         },
-        {
-            "name": "level1 isle L switch1",
-            "gltf": "lvl1_isle_L_switch1.glb",
-            "terrain_clamp": false,
-            "physics": {
-                "mass": 2,
-                "geom": "trimesh",
-                "type": "geom"
-            },
-            "fix_origin": false,
-            "entity": [
-                {
-                    "position": [
-                        38.462,
-                        -60.538,
-                        63.818,
-                        1
-                    ]
-                }
-            ]
-        },
+        
         {
             "name": "level1 isle T switch2",
             "gltf": "lvl1_isle_T_switch2.glb",
@@ -377,51 +357,7 @@
             ]
         },
         
-        {
-            "name": "level1 P switch3",
-            "gltf": "lvl1_P_switch3.glb",
-            "terrain_clamp": false,
-            "physics": {
-                "mass": 2,
-                "geom": "trimesh",
-                "type": "geom"
-            },
-            "fix_origin": false,
-            "entity": [
                 {
-                    "position": [
-                        19.063,
-                        -49.514,
-                        58.823,                     
-                        1
-                    ],
-                    "name": "lvl1.P.switch3"
-                }
-            ]
-        },
-        {
-            "name": "level1 P switch3",
-            "gltf": "lvl1_P_switch3_platform1.1.glb",
-            "terrain_clamp": false,
-            "physics": {
-                "mass": 2,
-                "geom": "trimesh",
-                "type": "geom"
-            },
-            "fix_origin": false,
-            "entity": [
-                {
-                    "position": [
-                        26.833,
-                        -54.829,
-                        60.903,                     
-                        1
-                    ],
-                    "name": "lvl1.P.switch3.platform1"
-                }
-            ]
-        },
-        {
             "name": "starting body",
             "gltf": "char_medium1.31.glb",
             "terrain_clamp": false,
@@ -697,6 +633,83 @@
                         72.487,
                         2.8027,
                         1
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "glowing spheres below",
+            "gltf": "lvl1_glow_below.glb",
+            "terrain_clamp": false,
+                        "fix_origin": false,
+            "entity": [
+                {
+                    "position": [
+                        135,
+                        -250,
+                        160,
+                        1,
+                        180
+                    ]
+                },
+                {
+                    "position": [
+                        135,
+                        -250,
+                        -160,
+                        1,
+                        180
+                    ]
+                },
+                {
+                    "position": [
+                        -135,
+                        -250,
+                        160,
+                        1
+                    ]
+                },
+                {
+                    "position": [
+                        -135,
+                        -250,
+                        -160,
+                        1,
+                        -20
+                    ]
+                },
+                {
+                    "position": [
+                        0,
+                        -350,
+                        160,
+                        1
+                    ]
+                },
+                {
+                    "position": [
+                        130,
+                        -350,
+                        0,
+                        1,
+                        180
+                    ]
+                },
+                {
+                    "position": [
+                        -130,
+                        -350,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "position": [
+                        0,
+                        -350,
+                        -160,
+                        1,
+                        180
                     ]
                 }
             ]
