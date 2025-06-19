@@ -267,6 +267,8 @@
             "name": "level1 P switch1",
             "gltf": "lvl1_P_switch1.glb",
             "terrain_clamp": false,
+            "roughness": 0.4,
+            "metallic": 1.0,
             "physics": {
                 "mass": 2,
                 "geom": "trimesh",
@@ -289,6 +291,8 @@
             "name": "level1 P switch1 platforms",
             "gltf": "lvl1_P_switch1_platform.glb",
             "terrain_clamp": false,
+            "roughness": 0.4,
+            "metallic": 1.0,
             "physics": {
                 "mass": 2,
                 "geom": "trimesh",
